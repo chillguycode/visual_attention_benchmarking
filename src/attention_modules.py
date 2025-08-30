@@ -1,3 +1,5 @@
+import torch
+import torch.nn as nn
 # Squeeze-and-Excitation (SE) Block
 class SELayer(nn.Module):
     def __init__(self, channel, reduction=16):

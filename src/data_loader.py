@@ -1,3 +1,8 @@
+import torch
+from torch.utils.data import DataLoader
+import torchvision
+import torchvision.transforms as transforms
+
 # ==============================================================================
 # H2: 5. Dataset Loading Helper --- REPLACE THIS ENTIRE BLOCK ---
 # ==============================================================================

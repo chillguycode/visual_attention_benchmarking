@@ -1,5 +1,6 @@
 # Memory Cleanup Helper
 import gc
+import torch
 
 def cleanup(model=None, optimizer=None):
     """

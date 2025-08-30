@@ -1,3 +1,9 @@
+import torch
+import torch.nn as nn
+
+from attention_modules import SELayer
+from attention_modules import CBAM
+
 # Basic Building Block
 class BasicBlock(nn.Module):
     expansion = 1
