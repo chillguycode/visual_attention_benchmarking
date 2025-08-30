@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
 
-from attention_modules import SELayer
-from attention_modules import CBAM
+from .attention_modules import SELayer, CBAM
 
 # Basic Building Block
 class BasicBlock(nn.Module):

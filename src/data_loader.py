@@ -3,9 +3,6 @@ from torch.utils.data import DataLoader
 import torchvision
 import torchvision.transforms as transforms
 
-# ==============================================================================
-# H2: 5. Dataset Loading Helper --- REPLACE THIS ENTIRE BLOCK ---
-# ==============================================================================
 def get_dataset(name, root='./data'):
     # Transform for small 32x32 images like CIFAR
     transform_32 = transforms.Compose([
